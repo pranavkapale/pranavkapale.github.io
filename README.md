@@ -1,14 +1,14 @@
 # Software Engineer
 
 ## Summary
-Passionate Software Engineer seeking to join a dynamic team where I can leverage my 2.5+ years of experience in Python, SQL, Spark, Databricks to contribute to your organization's data-driven goals. Experienced in Data ingestion, Data pipelines and CICD Implementation, I am eager to learn and grow alongside your team while delivering immediate value
+Passionate Software Engineer seeking to join a dynamic team where I can leverage my 2.5+ years of experience in Python, SQL, Spark, Databricks to contribute to your organization's data-driven goals. Experienced in Data ingestion, Data pipelines and CICD Implementation, I am eager to learn and grow alongside your team while delivering immediate value \
 
 ## Technology Stack
-**Core:** Python | SQL | Apache Spark | Scala
-**DevOps:** Azure DevOps | Git | AWS | Splunk | Maven | Docker | Confluence
-**Database:** Microsoft SQL Server Management Studio | PostgreSQL
-**Familiar:** Databricks | Azure Pipelines | Datawarehouse(DBFS) | JSON | Agile
-**Software:** Intellij | PyCharm | Visual Studio Code | Postmen | Dbeaver
+**Core:** Python | SQL | Apache Spark | Scala \
+**DevOps:** Azure DevOps | Git | AWS | Splunk | Maven | Docker | Confluence \
+**Database:** Microsoft SQL Server Management Studio | PostgreSQL \
+**Familiar:** Databricks | Azure Pipelines | Datawarehouse(DBFS) | JSON | Agile \
+**Software:** Intellij | PyCharm | Visual Studio Code | Postmen | Dbeaver \
 
 ## Work Experience
 
@@ -22,19 +22,20 @@ Passionate Software Engineer seeking to join a dynamic team where I can leverage
 - Developed **AWS Lambda/Step Functions** for automated data workflows
 - Integrated **REST APIs and Splunk logging** for streamlined data integration and enhanced system monitoring
 - Handled change request, schema updates, column updates and coordinated with Data Management teams to ensure compliance, data consistency and integrity
-- Experience working with cross functional teams\
+- Experience working with cross functional teams \
 
 ## Certifications
 1. [AI for Everyone](https://badges.spglobal.com/170f4e8a-68f0-43c5-b864-5c86d0f5f69f#acc.iZFOme5j)
-2. [EssentialTECH Foundations](https://badges.spglobal.com/131e1e56-e306-47f5-b4c9-184923baf2d9#acc.huYOqo02)
+2. [EssentialTECH Foundations](https://badges.spglobal.com/131e1e56-e306-47f5-b4c9-184923baf2d9#acc.huYOqo02) \
 
 ## Education
-- Electronics Engineering | Walchand College of Engineering, Sangli, Maharashtra IN (_July 2022_)
+- **Walchand College of Engineering, Sangli, Maharashtra, INDIA (_July 2022_)** \
+  Electronics Engineering \
 
 ## Skills
-Problem Solving | Adaptability | General practices for Code Quality | Teamwork | Performance optimisation | Data quality and Validation
+Problem Solving | Adaptability | General practices for Code Quality | Teamwork | Performance optimisation | Data quality and Validation \
 
 ## Languages
-English (Professional)
-Marathi (Native)
-Hindi (Professional)
+English (Professional) \
+Marathi (Native) \
+Hindi (Professional) \
