@@ -1,0 +1,144 @@
+# ============================================================================
+# Site Metadata
+# ============================================================================
+site_name: "Pranav Kapale | Data, AI & Backend Engineer"
+site_url: https://pranavkapale.github.io/
+site_author: Pranav Kapale
+site_description: >-
+  Portfolio of Pranav Kapale — Data Engineer, AI practitioner, and backend
+  systems builder. Specialising in scalable distributed pipelines, geospatial
+  analytics, and agentic AI workflows.
+
+# ============================================================================
+# Repository (shows "Edit on GitHub" link)
+# ============================================================================
+repo_name: pranavkapale/pranavkapale.github.io
+repo_url: https://github.com/pranavkapale/pranavkapale.github.io
+
+# ============================================================================
+# Theme — Material for MkDocs
+# ============================================================================
+theme:
+  name: material
+  custom_dir: overrides
+
+  # ---------- Colour palette & dark mode toggle ----------
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: amber
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: amber
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+  # ---------- Typography ----------
+  font:
+    text: Inter
+    code: JetBrains Mono
+
+  # ---------- Feature flags ----------
+  features:
+    # Navigation
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.instant
+    - navigation.instant.progress
+    - toc.integrate
+
+    # Search
+    - search.suggest
+    - search.highlight
+    - search.share
+
+    # Content
+    - content.code.copy
+    - content.code.annotate
+
+  # ---------- Logo / Favicon ----------
+  icon:
+    logo: material/code-braces-box
+  favicon: assets/favicon.png
+
+# ============================================================================
+# Navigation
+# ============================================================================
+nav:
+  - Home: index.md
+
+# ============================================================================
+# Markdown Extensions
+# ============================================================================
+markdown_extensions:
+  # Python Markdown
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+
+  # PyMdown Extensions
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# ============================================================================
+# Plugins
+# ============================================================================
+plugins:
+  - search
+
+# ============================================================================
+# Extra — Social links & Analytics (Phase 4)
+# ============================================================================
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/pranavkapale
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/pranavkapale/
+  generator: false   # Hides "Made with MkDocs" footer
+
+# ============================================================================
+# Custom Assets
+# ============================================================================
+extra_css:
+  - stylesheets/custom.css
+
+extra_javascript:
+  - javascripts/custom.js
